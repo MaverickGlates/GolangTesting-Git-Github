@@ -71,7 +71,7 @@ func main() {
 
 	//Área de un rectangulo
 
-	var bRectangulo = 10
+	var bRectangulo = 30
 	var aRectangulo = 20
 	areaRectangulo := (bRectangulo + aRectangulo)
 	fmt.Println(areaRectangulo)
