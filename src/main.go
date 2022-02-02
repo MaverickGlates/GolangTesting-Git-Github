@@ -60,4 +60,20 @@ func main() {
 	x--
 	fmt.Println("Decremental:", x)
 
+	// Área de un trapecio
+
+	var baseTrapecio float64 = 4
+	var base2Trapecio float64 = 3
+	var h float64 = 3
+	areaTrapecio := (((baseTrapecio + base2Trapecio) / 2) / h)
+	areaTrapecio++ // Incremental
+	fmt.Println("Área Trapecio: ", areaTrapecio)
+
+	//Área de un rectangulo
+
+	var bRectangulo = 10
+	var aRectangulo = 20
+	areaRectangulo := (bRectangulo + aRectangulo)
+	fmt.Println(areaRectangulo)
+
 }
