@@ -22,9 +22,42 @@ func main() {
 
 	fmt.Println(a, b, c, d)
 
-	//area de un cuadrado
+	// Área de un cuadrado
 	const squarebase = 10
 	squareArea := squarebase * squarebase
 	fmt.Println("Área Cuadrado:", squareArea)
+
+	x := 10
+	y := 50
+
+	// Suma
+	result := x + y
+	fmt.Println("suma:", result)
+
+	// Resta
+	result = x - y
+	fmt.Println("Resta:", result)
+
+	// Multiplicación
+	result = x * y
+	fmt.Println("Multiplicación:", result)
+
+	// División
+	result = x / y
+	fmt.Println("División:", result)
+
+	// Modulo
+	result = x % y
+	fmt.Println("Modulo:", result)
+
+	// Incremental
+
+	x++
+	fmt.Println("incremental:", x)
+
+	// Decremental
+
+	x--
+	fmt.Println("Decremental:", x)
 
 }
