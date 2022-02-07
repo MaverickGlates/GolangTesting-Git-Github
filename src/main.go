@@ -76,4 +76,9 @@ func main() {
 	areaRectangulo := (bRectangulo + aRectangulo)
 	fmt.Println(areaRectangulo)
 
+	normalfunction("asd")
+
+}
+func normalfunction(x int) {
+	fmt.Println(x)
 }
