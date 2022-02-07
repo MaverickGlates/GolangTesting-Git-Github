@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+func normalfunction(x string) {
+	fmt.Println(x)
+}
+
 func main() {
 	//Declaración de constantes
 	const pi float64 = 3.1416
@@ -78,7 +82,4 @@ func main() {
 
 	normalfunction("asd")
 
-}
-func normalfunction(x int) {
-	fmt.Println(x)
 }
