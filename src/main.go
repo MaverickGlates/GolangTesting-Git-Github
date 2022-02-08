@@ -6,6 +6,10 @@ func normalfunction(x string) {
 	fmt.Println(x)
 }
 
+func tripeArgument(a, b int, c string) {
+	fmt.Println(a, b, c)
+}
+
 func main() {
 	//Declaración de constantes
 	const pi float64 = 3.1416
@@ -81,5 +85,5 @@ func main() {
 	fmt.Println(areaRectangulo)
 
 	normalfunction("asd")
-
+	tripeArgument(1, 2, "hola mundo")
 }
