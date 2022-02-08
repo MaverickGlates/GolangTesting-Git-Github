@@ -11,12 +11,12 @@ func tripeArgument(a, b int, c string) {
 }
 
 func main() {
-	//Declaración de constantes
+	//Const Declaration
 	const pi float64 = 3.1416
 	const pi2 float64 = 3.14163
 	fmt.Println(pi, pi2)
 
-	// Declaración de variables
+	// Variable Declaration
 	base := 12
 	var altura int = 14
 	var area int
@@ -30,7 +30,7 @@ func main() {
 
 	fmt.Println(a, b, c, d)
 
-	// Área de un cuadrado
+	// Square area
 	const squarebase = 10
 	squareArea := squarebase * squarebase
 	fmt.Println("Área Cuadrado:", squareArea)
@@ -38,23 +38,23 @@ func main() {
 	x := 10
 	y := 50
 
-	// Suma
+	// Sum
 	result := x + y
 	fmt.Println("suma:", result)
 
-	// Resta
+	// subtraction
 	result = x - y
 	fmt.Println("Resta:", result)
 
-	// Multiplicación
+	// Multiplication
 	result = x * y
 	fmt.Println("Multiplicación:", result)
 
-	// División
+	// Split
 	result = x / y
 	fmt.Println("División:", result)
 
-	// Modulo
+	// Module
 	result = x % y
 	fmt.Println("Modulo:", result)
 
@@ -68,7 +68,7 @@ func main() {
 	x--
 	fmt.Println("Decremental:", x)
 
-	// Área de un trapecio
+	// Trapeze area
 
 	var baseTrapecio float64 = 4
 	var base2Trapecio float64 = 3
@@ -77,8 +77,7 @@ func main() {
 	areaTrapecio++ // Incremental
 	fmt.Println("Área Trapecio: ", areaTrapecio)
 
-	//Área de un rectangulo
-
+	// Rectangle area
 	var bRectangulo = 30
 	var aRectangulo = 20
 	areaRectangulo := (bRectangulo + aRectangulo)
@@ -87,8 +86,17 @@ func main() {
 	normalfunction("asd")
 	tripeArgument(1, 2, "hola mundo")
 
-	// FOR CONDICIONAL
+	// For conditional
 	for i := 0; i <= 10; i++ {
 		fmt.Println(i)
+	}
+
+	fmt.Println()
+
+	// For while
+	counter := 0
+	for counter < 10 {
+		fmt.Println(counter)
+		counter++
 	}
 }
