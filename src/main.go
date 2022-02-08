@@ -99,4 +99,11 @@ func main() {
 		fmt.Println(counter)
 		counter++
 	}
+
+	// For forever
+	counterForever := 0
+	for {
+		fmt.Println(counterForever)
+		counterForever++
+	}
 }
