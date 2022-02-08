@@ -86,4 +86,9 @@ func main() {
 
 	normalfunction("asd")
 	tripeArgument(1, 2, "hola mundo")
+
+	// FOR CONDICIONAL
+	for i := 0; i <= 10; i++ {
+		fmt.Println(i)
+	}
 }
