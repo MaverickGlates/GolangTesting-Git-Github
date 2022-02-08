@@ -87,6 +87,7 @@ func main() {
 	tripeArgument(1, 2, "hola mundo")
 
 	// For conditional
+
 	for i := 0; i <= 10; i++ {
 		fmt.Println(i)
 	}
@@ -101,9 +102,15 @@ func main() {
 	}
 
 	// For forever
-	counterForever := 0
-	for {
-		fmt.Println(counterForever)
-		counterForever++
+	// counterForever := 0
+	// for {
+	// 	fmt.Println(counterForever)
+	// 	counterForever++
+	// }
+	fmt.Println()
+
+	for i := 10; i > 0; i-- {
+		fmt.Println("Oh, you missed that one. Try another!")
 	}
+	fmt.Println("Nice shooting! Try another one")
 }
